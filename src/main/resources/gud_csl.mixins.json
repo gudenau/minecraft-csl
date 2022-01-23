@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gudenau.minecraft.csl.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "GameRendererMixin",
+    "RenderLayerMixin",
+    "ShaderIdFixMixin",
+    "ShaderMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "BlockBufferBuilderStorageMixin"
+  ],
+  "plugin": "net.gudenau.minecraft.csl.mixin.Plugin"
+}

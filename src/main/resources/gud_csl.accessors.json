@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gudenau.minecraft.csl.accessor",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "RenderLayer$LineWidthAccessor",
+    "RenderLayerAccessor",
+    "RenderPhase$ShaderAccessor",
+    "RenderPhase$TextureAccessor",
+    "RenderPhaseAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

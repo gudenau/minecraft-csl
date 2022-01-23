@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_csl",
+  "version": "${version}",
+
+  "name": "Custom Shader Lib",
+  "description": "A small mod that allows you to create custom shaders.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+  },
+
+  "icon": "assets/gud_csl/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.gudenau.minecraft.csl.CustomShaderLib"
+    ]
+  },
+  "mixins": [
+    "gud_csl.accessors.json",
+    "gud_csl.mixins.json"
+  ],
+  "accessWidener": "gud_csl.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
